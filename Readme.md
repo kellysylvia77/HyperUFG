@@ -40,12 +40,12 @@ python train.py --dname='actor' --model_name='HyperND' --MLP_hidden=256 --Classi
 
 For AllDeepSets:
 ```
-python
+python train.py --dname='actor' --model_name='AllDeepSets' --MLP_hidden=512 --Classifier_hidden=512 --lr=1e-3 --wd=5e-4 --dropout=0.5
 ```
 
 For AllSetTransformer:
 ```
-python
+python train.py --dname='actor' --model_name='AllSetTransformer' --MLP_hidden=256 --Classifier_hidden=256 --lr=1e-3 --wd=5e-4 --dropout=0.5
 ```
 
 For ED-HNN:
