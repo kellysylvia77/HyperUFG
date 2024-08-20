@@ -25,7 +25,7 @@ python train.py --dataset='actor' --max_epoch=1000 --n_hid=256 --lr=1e-2 --weigh
 
 For HyperGCN:
 ```
-python train.py --dataset='actor' --model_name='HyperGCN' --nlayer=2 --nhid=8 --nhead=8 --lr=1e-2 --wd=5e-4 --dropout=0.6
+python train.py --dataset='actor' --model_name='HyperGCN' --epochs=2000 --patience=100 --nlayer=2 --nhid=8 --nhead=8 --lr=1e-2 --wd=5e-5 --dropout=0.6
 ```
 
 For UniGCNII:
