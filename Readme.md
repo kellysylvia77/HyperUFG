@@ -8,6 +8,15 @@ In the paper, we introduce 4 new heterophilous hypergraph datasets: actor, amazo
 - Pokec is an online social network based on the communication platform in Slovakia from [SNAP Datasets](https://snap.stanford.edu/data/soc-Pokec.html).
 
 Our datasets come from different domains and exhibit a wide range of structual properties. We provide some statistics of our datasets in the table below:
+|                Datasets               |    Actor    | Amazon-ratings | Twitch-gamers |    Pokec    |
+|:-------------------------------------:|:-----------:|:--------------:|:-------------:|:-----------:|
+|     Hypernodes, $\|\mathcal{V}\|$     |   16, 255   |     22, 299    |    16, 812    |   14, 998   |
+|    Hyperedges, $\|\mathcal{E}\|$      |   10, 164   |     2, 090     |     2, 627    |    2, 406   |
+|        Avg. hyperedge size            | 5.43 ± 2.65 |   3.10 ± 0.62  |  6.23 ± 3.37  | 2.29 ± 0.65 |
+|             Features, $d$             |      50     |       111      |       7       |      65     |
+|              Classes, $c$             |      3      |        5       |       2       |      2      |
+| Node hom. ratio, $\mathcal{H}_{node}$ |    0.4815   |     0.4805     |     0.4893    |    0.4952   |
+| Edge hom. ratio, $\mathcal{H}_{edge}$ |    0.4675   |     0.3677     |     0.4857    |    0.4529   |
 
 # Reproducing Experiments
 To ensure the reproduction of the results presented in the manuscript, we advise downloading the original codes for HGNN (Feng et al. 2019), UniGCNII (Huang and Yang 2021), ED-HNN (Wang et. al 2023) and SheafHyperGNN (Duta et al. 2023) from the following links:
