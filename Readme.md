@@ -17,11 +17,43 @@ To ensure the reproduction of the results presented in the manuscript, we advise
 - [SheafHyperGNN](https://github.com/IuliaDuta/sheaf_hypergraph_networks) can be reproduced by accessing its original source code. 
 
 The commands that we have used to execute the models and obtain the experimental results in the manuscript are detailed as follows:
-- HGNN:
-- HyperGCN:
-- UniGCNII:
-- HyperND:
-- AllDeepSets:
-- AllSetTransformer:
-- ED-HNN:
-- SheafHyperGNN: 
+
+For HGNN:
+```
+python 
+```
+
+For HyperGCN:
+```
+python
+```
+
+For UniGCNII:
+```
+python
+```
+
+For HyperND:
+```
+python
+```
+
+For AllDeepSets:
+```
+python
+```
+
+For AllSetTransformer:
+```
+python
+```
+
+For ED-HNN:
+```
+python
+```
+
+For SheafHyperGNN:
+```
+python
+```
