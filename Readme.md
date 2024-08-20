@@ -35,7 +35,7 @@ python train.py --dataset='actor' --model_name='UniGCNII' --epochs=2000 --patien
 
 For HyperND:
 ```
-python train.py --dataset='actor' --model_name='HyperND' --MLP_hidden=256 --Classifier_hidden=256 --lr=1e-3 --wd=5e-4 --lamda=0.5 --dropout=0.5
+python train.py --dname='actor' --model_name='HyperND' --MLP_hidden=256 --Classifier_hidden=256 --lr=1e-3 --wd=5e-4 --dropout=0.5
 ```
 
 For AllDeepSets:
@@ -50,7 +50,7 @@ python
 
 For ED-HNN:
 ```
-python
+python train.py --dname='actor' --model_name='EDGNN' --edconv_type='EquivSet' --MLP_hidden=256 --Classifier_hidden=256 --lr=1e-3 --wd=5e-4 --dropout=0.5
 ```
 
 For SheafHyperGNN:
