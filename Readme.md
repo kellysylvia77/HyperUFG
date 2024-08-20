@@ -30,7 +30,7 @@ python train.py --dataset='actor' --model_name='HyperGCN' --epochs=2000 --patien
 
 For UniGCNII:
 ```
-python
+python train.py --dataset='actor' --model_name='UniGCNII' --epochs=2000 --patience=100 --nlayer=2 --nhid=128 --nhead=8 --lr=3e-3 --wd=2e-4 --lamda=0.5 --dropout=0.1
 ```
 
 For HyperND:
