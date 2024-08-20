@@ -8,7 +8,7 @@ In this work, we introduce four new heterophilous hypergraph datasets: Actor, Am
 - Twitch-gamers is a twitch streaming platform network based on accounts provided by [SNAP Datasets](http://snap.stanford.edu/data/twitch_gamers.html).
 - Pokec is an online social network based on the communication platform in Slovakia from [SNAP Datasets](https://snap.stanford.edu/data/soc-Pokec.html).
 
-Our datasets come from different domains and exhibit a wide range of structual properties. We provide some statistics of our datasets in the table below:
+These datasets exhibit varying structural properties, offering a wide spectrum of challenges for hypergraph learning algorithms. A summary of the dataset statistics is provided in the following table.
 |                Datasets               |    Actor    | Amazon-ratings | Twitch-gamers |    Pokec    |
 |:-------------------------------------:|:-----------:|:--------------:|:-------------:|:-----------:|
 |     Hypernodes, $\|\mathcal{V}\|$     |   16, 255   |     22, 299    |    16, 812    |   14, 998   |
