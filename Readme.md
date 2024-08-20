@@ -19,7 +19,7 @@ These datasets exhibit varying structural properties, offering a wide spectrum o
 | Node hom. ratio, $\mathcal{H}_{node}$ |    0.4815   |     0.4805     |     0.4893    |    0.4952   |
 | Edge hom. ratio, $\mathcal{H}_{edge}$ |    0.4675   |     0.3677     |     0.4857    |    0.4529   |
 
-# Reproducing Experiments
+# Implementing Classic HGNN Models on New Benchmark Datasets
 To ensure the reproduction of the results presented in the manuscript, we advise downloading the original codes for HGNN (Feng et al. 2019), UniGCNII (Huang and Yang 2021), ED-HNN (Wang et. al 2023) and SheafHyperGNN (Duta et al. 2023) from the following links:
 - **[HGNN](https://github.com/iMoonLab/HGNN)** can be run by accessing its original source code. However, to reproduce the results, you need to replace the model instantiation with `dhg.models.HGNN`, which is supplied by the **[DHG](https://github.com/iMoonLab/DeepHypergraph)**; 
 - HyperGCN and UniGNN family (including UniGCN, UniSAGE, UniGAT, and UniGCNII) can be reproduced by the original codes from **[UniGNNs](https://github.com/OneForward/UniGNN)**; 
