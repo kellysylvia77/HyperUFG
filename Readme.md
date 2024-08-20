@@ -11,7 +11,7 @@ Our datasets come from different domains and exhibit a wide range of structual p
 
 # Reproducing Experiments
 To ensure the reproduction of the results presented in the manuscript, we advise downloading the original codes for HGNN (Feng et al. 2019), UniGCNII (Huang and Yang 2021), ED-HNN (Wang et. al 2023) and SheafHyperGNN (Duta et al. 2023) from the following links:
-- [HGNN](https://github.com/iMoonLab/HGNN) can be run by accessing its original source code. However, to reproduce the results, you need to replace the model instantiation with dhg.models.HGNN, which is supplied by the [DHG](https://github.com/iMoonLab/DeepHypergraph); 
+- [HGNN](https://github.com/iMoonLab/HGNN) can be run by accessing its original source code. However, to reproduce the results, you need to replace the model instantiation with `dhg.models.HGNN`, which is supplied by the [DHG](https://github.com/iMoonLab/DeepHypergraph); 
 - HyperGCN and UniGNN family (including UniGCN, UniSAGE, UniGAT, and UniGCNII) can be reproduced by the original codes from [UniGNNs](https://github.com/OneForward/UniGNN); 
 - HyperND, AllDeepSets, AllSetTransformer and ED-HNN can be reproduced by the original codes from [ED-HNN](https://github.com/Graph-COM/ED-HNN);
 - [SheafHyperGNN](https://github.com/IuliaDuta/sheaf_hypergraph_networks) can be reproduced by accessing its original source code. 
