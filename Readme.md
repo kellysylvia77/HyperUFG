@@ -2,11 +2,11 @@
 This is the official repository for the paper "When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline" (Submitted to AAAI 2025).
 # New Benchmark Datasets
 In this work, we introduce four new heterophilous hypergraph datasets: Actor, Amazon-ratings, Twitch-gamers, and Pokec. The datasets, which can be accessed in the accompanying folder, are constructed by mining co-occurrence information to establish hyperedge relationships, making them particularly suited for hypergraph learning methodologies. Their broad applicability in node classification tasks provides a valuable resource for researchers in the field.
-- Actor is an actor co-occurrences network within films, derived from the broader **[Movie-Actor-Director-Writer Network
+- Actor: A hypergraph representing actor co-occurrences in films, derived from the larger **[Movie-Actor-Director-Writer Network
 ](https://www.aminer.org/lab-datasets/soinf/)**.
-- Amazon-ratings is a product co-purchasing network based on data from **[SNAP Datasets](https://snap.stanford.edu/data/amazon-meta.html)**.
-- Twitch-gamers is a twitch streaming platform network based on accounts provided by **[SNAP Datasets](http://snap.stanford.edu/data/twitch_gamers.html)**.
-- Pokec is an online social network based on the communication platform in Slovakia from **[SNAP Datasets](https://snap.stanford.edu/data/soc-Pokec.html)**.
+- Amazon-ratings: A product co-purchasing network built from data in the **[SNAP Datasets](https://snap.stanford.edu/data/amazon-meta.html)**.
+- Twitch-gamers: A network from the Twitch streaming platform, constructed using account information from **[SNAP Datasets](http://snap.stanford.edu/data/twitch_gamers.html)**.
+- Pokec: An online social network from Slovakia, based on communication data in **[SNAP Datasets](https://snap.stanford.edu/data/soc-Pokec.html)**.
 
 These datasets exhibit varying structural properties, offering a wide spectrum of challenges for hypergraph learning algorithms. A summary of the dataset statistics is provided in the following table.
 |                Datasets               |    Actor    | Amazon-ratings | Twitch-gamers |    Pokec    |
