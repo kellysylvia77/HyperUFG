@@ -20,7 +20,7 @@ These datasets exhibit varying structural properties, offering a wide spectrum o
 
 # Implementing Classic HGNN Models on New Benchmark Datasets
 To facilitate the reproduction of the experimental results reported in the paper, we recommend utilizing the original implementations of several hypergraph neural network models, including HGNN (Feng et al., 2019), UniGCNII (Huang and Yang, 2021), ED-HNN (Wang et al., 2023), and SheafHyperGNN (Duta et al., 2023). The following outlines the reproduction process for each model:
-- **[HGNN](https://github.com/iMoonLab/HGNN)**: The original source code for HGNN can be used, with the model instantiation replaced by `dhg.models.HGNN`, , as provided by the **[DHG](https://github.com/iMoonLab/DeepHypergraph)** library.
+- **[HGNN](https://github.com/iMoonLab/HGNN)**: The original source code for HGNN can be used, with the model instantiation replaced by `dhg.models.HGNN`, as provided by the **[DHG](https://github.com/iMoonLab/DeepHypergraph)** library.
 - HyperGCN and the UniGNN family (including UniGCN, UniSAGE, UniGAT, and UniGCNII) can be reproduced using the original codes from the **[UniGNN](https://github.com/OneForward/UniGNN)** repository.
 - HyperND, AllDeepSets, AllSetTransformer, and ED-HNN can be reproduced using the original codes available from **[ED-HNN](https://github.com/Graph-COM/ED-HNN)**.
 - **[SheafHyperGNN](https://github.com/IuliaDuta/sheaf_hypergraph_networks)**: The source code for SheafHyperGNN is accessible for reproducing its results. 
