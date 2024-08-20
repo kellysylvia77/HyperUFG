@@ -10,3 +10,9 @@ In the paper, we introduce 4 new heterophilous hypergraph datasets: actor, amazo
 Our datasets come from different domains and exhibit a wide range of structual properties. We provide some statistics of our datasets in the table below:
 
 # Reproducing Experiments
+To ensure the reproduction of the results presented in the manuscript, we advise downloading the original codes for HGNN (Feng et al. 2019), UniGCNII (Huang and Yang 2021), ED-HNN (Wang et. al 2023) and SheafHyperGNN (Duta et al. 2023) from the following links:
+- a
+- a
+- a
+
+The commands that we have used to execute the models and obtain the experimental results in the manuscript are detailed as follows:
