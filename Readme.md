@@ -20,7 +20,7 @@ The commands that we have used to execute the models and obtain the experimental
 
 For HGNN:
 ```
-python 
+python train.py -- dataset 'actor' -- max_epoch 1000 -- n_hid 256 -- lr 1e-2 -- weight_decay 5e-4 -- drop_out 0.3
 ```
 
 For HyperGCN:
