@@ -71,6 +71,6 @@ python train.py --dname='actor' --model_name='SheafHyperGCNDiag' --MLP_hidden=25
 ```
 
 # Future Directions
-- Recommendation Task: HHL can capture interaction information across different interest groups. For example, a user may have preferences for various types of items (such as electronics and books), and HHL can more effectively learn the relationships between these "heterophily" nodes, helping to cover the user's diverse interests in recommendations.
+- Social Recommendation: HHL can capture interaction information across different interest groups. For example, a user may have preferences for various types of items (such as electronics and books), and HHL can more effectively learn the relationships between these "heterophilic" nodes, helping to cover the user's diverse interests in recommendations.
 
-- 
+- Anomaly Detection: HHL can effectively capture "atypical" relational patterns within hypergraphs. For instance, fraudsters may hide within regular social networks by continuously changing their tactics. HHL can identify anomalous connections by modeling the relationships between "heterophilic" nodes with differentiated features, thereby enabling effective detection.
