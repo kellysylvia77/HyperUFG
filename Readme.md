@@ -70,7 +70,9 @@ For SheafHyperGNN:
 python train.py --dname='actor' --model_name='SheafHyperGCNDiag' --MLP_hidden=256 --Classifier_hidden=256 --lr=1e-2 --wd=5e-4 --dropout=0.5
 ```
 
-# Future Directions
-- Social Recommendation: HHL can capture interaction information across different interest groups. For example, a user may have preferences for various types of items (such as electronics and books), and HHL can more effectively learn the relationships between these "heterophilic" nodes, helping to cover the user's diverse interests in recommendations.
+# Applications 
+We believe that developing heterophilic hypergraph learning (HHL) offers practical support for open-domain applications. Below, we illustrate the necessity of developing HHL through two real-world tasks that are widely studied in the field of graph learning.
 
-- Anomaly Detection: HHL can effectively capture "atypical" relational patterns within hypergraphs. For instance, fraudsters may hide within regular social networks by continuously changing their tactics. HHL can identify anomalous connections by modeling the relationships between "heterophilic" nodes with differentiated features, thereby enabling effective detection.
+- **Social Recommendation**: HHL can capture interaction information across different interest groups. For example, a user may have preferences for various types of items (such as electronics and books), and HHL can more effectively learn the relationships between these "heterophilic" nodes, helping to cover the user's diverse interests in recommendations.
+
+- **Anomaly Detection**: HHL can effectively capture "atypical" relational patterns within hypergraphs. For instance, fraudsters may hide within regular social networks by continuously changing their tactics. HHL can identify anomalous connections by modeling the relationships between "heterophilic" nodes with differentiated features, thereby enabling effective detection.
