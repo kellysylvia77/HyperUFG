@@ -1,5 +1,7 @@
 # When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
 This is the official repository for the paper "When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline" (AAAI2025 Submission-9978).
+# Synthetic Hypergraphs
+
 # New Benchmark Datasets
 In this work, we introduce four new heterophilous hypergraph datasets: Actor, Amazon-ratings, Twitch-gamers, and Pokec. The datasets, which can be accessed in the accompanying folder, are constructed by mining co-occurrence information to establish hyperedge relationships, making them particularly suited for hypergraph learning methodologies. Their broad applicability in node classification tasks provides a valuable resource for researchers in the field.
 - Actor: A hypergraph representing actor co-occurrences in films, derived from the larger **[Movie-Actor-Director-Writer Network](https://www.aminer.org/lab-datasets/soinf/)**.
