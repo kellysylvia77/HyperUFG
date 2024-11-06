@@ -71,3 +71,6 @@ python train.py --dname='actor' --model_name='SheafHyperGCNDiag' --MLP_hidden=25
 ```
 
 # Future Directions
+- Recommendation Task: HHL can capture interaction information across different interest groups. For example, a user may have preferences for various types of items (such as electronics and books), and HHL can more effectively learn the relationships between these "heterophily" nodes, helping to cover the user's diverse interests in recommendations.
+
+- 
