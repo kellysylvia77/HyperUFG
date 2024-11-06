@@ -1,6 +1,20 @@
 # When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
-This is the official repository for the paper "When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline" (AAAI2025 Submission-9978).
+This is the official repository for the paper "When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline" (AAAI2025 Submission).
 # Synthetic Hypergraphs
+We follow the [HSBM model](https://github.com/sepidism/HSBM) to generate synthetic data, with the implementation provided in the file `hsbm.py`. By adjusting the values of **$p$** and **$q$** in the code, hypergraphs with varying levels of homophily can be generated. Below are the parameter settings for several synthetic hypergraphs.
+
+|       Hyperedge hom. ratio, $\mathcal{H}_{edge}$   | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |    
+|:------------------------------------:|:---------:|:--------:|:------:|:------:|:---------:|:--------:|:------:|
+|    $p$      |   0.01   |     0.1     |    0.3    |    0.5   |   0.6  |   0.5  |   0.9  |
+|    $q$      |   0.99   |     0.6     |    0.8    |    0.6   |   0.5  |   0.2  |   0.2  |
+
+
+|       Node hom. ratio, $\mathcal{H}_{node}$   | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |    
+|:------------------------------------:|:---------:|:--------:|:------:|:------:|:---------:|:--------:|:------:|
+|    $p$      |   0   |     0.1     |    0.3    |    0.5   |   0.6  |   0.5  |   0.9  |
+|    $q$      |   1   |     0.6     |    0.8    |    0.6   |   0.5  |   0.2  |   0.1  |
+
+
 
 # New Benchmark Datasets
 In this work, we introduce four new heterophilous hypergraph datasets: Actor, Amazon-ratings, Twitch-gamers, and Pokec. The datasets, which can be accessed in the accompanying folder, are constructed by mining co-occurrence information to establish hyperedge relationships, making them particularly suited for hypergraph learning methodologies. Their broad applicability in node classification tasks provides a valuable resource for researchers in the field.
