@@ -5,6 +5,7 @@ This is the official repository for the paper "When Hypergraph Meets Heterophily
 
 # When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
 Created by Ming Li, Yongchun Gu, Yi Wang, Yujie Fang, Lu Bai, Xiaosheng Zhuang, Pietro Lio from Zhejiang Normal University, Beijing Normal University, City University of Hong Kong, and Cambridge University.
+![Hypergraphs](/doc/Hypergraphs.jpg "Hypergraphs")
 
 ## Synthetic Hypergraphs
 We follow the [HSBM model](https://github.com/sepidism/HSBM) to generate synthetic data, with the implementation provided in the file `hsbm.py`. By adjusting the values of **$p$** and **$q$** in the code, hypergraphs with varying levels of homophily can be generated. Below are the parameter settings for several synthetic hypergraphs.
@@ -19,8 +20,6 @@ We follow the [HSBM model](https://github.com/sepidism/HSBM) to generate synthet
 |:------------------------------------:|:---------:|:--------:|:------:|:------:|:---------:|:--------:|:------:|
 |    $p$      |   0   |     0.1     |    0.3    |    0.5   |   0.6  |   0.5  |   0.9  |
 |    $q$      |   1   |     0.6     |    0.8    |    0.6   |   0.5  |   0.2  |   0.1  |
-
-
 
 ## New Benchmark Datasets
 In this work, we introduce four new heterophilous hypergraph datasets: Actor, Amazon-ratings, Twitch-gamers, and Pokec. The datasets, which can be accessed in the accompanying folder, are constructed by mining co-occurrence information to establish hyperedge relationships, making them particularly suited for hypergraph learning methodologies. Their broad applicability in node classification tasks provides a valuable resource for researchers in the field.
