@@ -6,7 +6,7 @@ This is the official repository for the paper "When Hypergraph Meets Heterophily
 # When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
 Created by Ming Li, Yongchun Gu, Yi Wang, Yujie Fang, Lu Bai, Xiaosheng Zhuang, Pietro Lio from Zhejiang Normal University, Beijing Normal University, City University of Hong Kong, and Cambridge University.
 
-# Synthetic Hypergraphs
+## Synthetic Hypergraphs
 We follow the [HSBM model](https://github.com/sepidism/HSBM) to generate synthetic data, with the implementation provided in the file `hsbm.py`. By adjusting the values of **$p$** and **$q$** in the code, hypergraphs with varying levels of homophily can be generated. Below are the parameter settings for several synthetic hypergraphs.
 
 |       Hyperedge hom. ratio, $\mathcal{H}_{edge}$   | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |    
@@ -22,7 +22,7 @@ We follow the [HSBM model](https://github.com/sepidism/HSBM) to generate synthet
 
 
 
-# New Benchmark Datasets
+## New Benchmark Datasets
 In this work, we introduce four new heterophilous hypergraph datasets: Actor, Amazon-ratings, Twitch-gamers, and Pokec. The datasets, which can be accessed in the accompanying folder, are constructed by mining co-occurrence information to establish hyperedge relationships, making them particularly suited for hypergraph learning methodologies. Their broad applicability in node classification tasks provides a valuable resource for researchers in the field.
 - Actor: A hypergraph representing actor co-occurrences in films, derived from the larger **[Movie-Actor-Director-Writer Network](https://www.aminer.org/lab-datasets/soinf/)**.
 - Amazon-ratings: A product co-purchasing network built from data in the **[SNAP Datasets](https://snap.stanford.edu/data/amazon-meta.html)**.
@@ -40,7 +40,7 @@ These datasets exhibit varying structural properties, offering a wide spectrum o
 | Node hom. ratio, $\mathcal{H}_{node}$ |    0.4815   |     0.4805     |     0.4893    |    0.4952   |
 | Edge hom. ratio, $\mathcal{H}_{edge}$ |    0.4675   |     0.3677     |     0.4857    |    0.4529   |
 
-# Implementing Classic HGNN Models on New Benchmark Datasets
+## Implementing Classic HGNN Models on New Benchmark Datasets
 To facilitate the reproduction of the experimental results reported in the paper, we recommend utilizing the original implementations of several hypergraph neural network models, including HGNN (Feng et al., 2019), UniGCNII (Huang and Yang, 2021), ED-HNN (Wang et al., 2023), and SheafHyperGNN (Duta et al., 2023). The following outlines the reproduction process for each model:
 - **[HGNN](https://github.com/iMoonLab/HGNN)**: The original source code for HGNN can be used, with the model instantiation replaced by `dhg.models.HGNN`, as provided by the **[DHG](https://github.com/iMoonLab/DeepHypergraph)** library.
 - HyperGCN and the UniGNN family (including UniGCN, UniSAGE, UniGAT, and UniGCNII) can be reproduced using the original codes from the **[UniGNN](https://github.com/OneForward/UniGNN)** repository.
@@ -90,7 +90,7 @@ For SheafHyperGNN:
 python train.py --dname='actor' --model_name='SheafHyperGCNDiag' --MLP_hidden=256 --Classifier_hidden=256 --lr=1e-2 --wd=5e-4 --dropout=0.5
 ```
 
-# Applications 
+## Applications 
 We believe that developing heterophilic hypergraph learning (HHL) offers practical support for open-domain applications. Below, we illustrate the necessity of developing HHL through two real-world tasks that are widely studied in the field of graph learning.
 
 - **Social Recommendation**: HHL can capture interaction information across different interest groups. For example, a user may have preferences for various types of items (such as electronics and books), and HHL can more effectively learn the relationships between these "heterophilic" nodes, helping to cover the user's diverse interests in recommendations.
