@@ -5,7 +5,7 @@ This is the official repository for the paper "When Hypergraph Meets Heterophily
 
 # When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
 Created by Ming Li, Yongchun Gu, Yi Wang, Yujie Fang, Lu Bai, Xiaosheng Zhuang, Pietro Lio from Zhejiang Normal University, Beijing Normal University, City University of Hong Kong, and Cambridge University.
-![Hypergraphs](/doc/Hypergraphs.jpg "Hypergraphs")
+![Homophilic Hypergraphs & Heterophilic Hypergraphs](/doc/Hypergraphs.jpg "Homophilic Hypergraphs & Heterophilic Hypergraphs")
 
 ## Synthetic Hypergraphs
 We follow the [HSBM model](https://github.com/sepidism/HSBM) to generate synthetic data, with the implementation provided in the file `hsbm.py`. By adjusting the values of **$p$** and **$q$** in the code, hypergraphs with varying levels of homophily can be generated. Below are the parameter settings for several synthetic hypergraphs.
