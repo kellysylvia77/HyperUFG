@@ -1,6 +1,9 @@
-# When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
-This is the official repository for the paper "When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline" (accepted by AAAI 2025).
+# News
+We have revealed the challenges that current hypergraph neural networks face when handling heterophilic hypergraphs and introduced four heterophilic hypergraph benchmarks, along with a baseline model called HyperUFG. This work is expected to inspire further in-depth research in areas such as heterophilic hypergraph learning theory, models, algorithms, and applications.
 
+This is the official repository for the paper "When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline" (accepted by AAAI 2025). For more details, please visit the GraphME homepage!
+
+# When Hypergraph Meets Heterophily: New Benchmark Datasets and Baseline
 Created by Ming Li, Yongchun Gu, Yi Wang, Yujie Fang, Lu Bai, Xiaosheng Zhuang, Pietro Lio from Zhejiang Normal University, Beijing Normal University, City University of Hong Kong, and Cambridge University.
 
 # Synthetic Hypergraphs
